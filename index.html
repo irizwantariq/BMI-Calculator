@@ -18,10 +18,10 @@
         <p id="info">Please enter height in [cm] and weight in [kg]</p></div>
         <SCript>
             function bmi(){
-                var h =document.getElementById('height').value;
-                var w =document.getElementById('weight').value;
-                var bmi=w/(h/100*h/100);
-                var total=bmi.toFixed(2);
+                let h =document.getElementById('height').value;
+                let w =document.getElementById('weight').value;
+                let bmi=w/(h/100*h/100);
+                let total=bmi.toFixed(2);
                 document.getElementById('result').innerHTML = "Your BMI is " + total 
             }
         </SCript>
